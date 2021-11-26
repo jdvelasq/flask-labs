@@ -1,2 +1,0 @@
-# flask-labs
-study repository

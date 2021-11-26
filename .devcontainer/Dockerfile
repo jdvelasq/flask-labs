@@ -12,6 +12,9 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 # COPY requirements.txt /tmp/pip-tmp/
 RUN pip3 --disable-pip-version-check --no-cache-dir install \
     flask \
+    flask-wtf \
+    black \
+    isort \
     && rm -rf /tmp/pip-tmp
 
 # [Optional] Uncomment this section to install additional OS packages.
