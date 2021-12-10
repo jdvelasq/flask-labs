@@ -15,6 +15,19 @@ RUN pip3 --disable-pip-version-check --no-cache-dir install \
     flask-wtf \
     black \
     isort \
+    numpy==1.19.5 \
+    matplotlib==3.2.2 \
+    graphviz==0.10.1 \
+    ipykernel==4.10.1 \
+    scikit-learn==1.0.1 \
+    nltk==3.2.5 \
+    pandas==1.1.5 \
+    wordcloud==1.5.0 \
+    squarify==0.4.3 \
+    networkx==2.6.3 \
+    cdlib==0.2.5 \
+    seaborn==0.11.2 \
+    plotly.express \    
     && rm -rf /tmp/pip-tmp
 
 # [Optional] Uncomment this section to install additional OS packages.
